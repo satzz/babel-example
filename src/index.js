@@ -1,2 +1,2 @@
-const name = 'World';
-document.getElementById('target').innerHTML= `Hello, ${name}`;
+const names = ['Alice', 'Bob'];
+document.getElementById('target').innerHTML= `Hello, ${names.join("and")}`;
